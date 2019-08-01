@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Signet's Intranet - the Source</title>
+	<!-- Bootstrap -->
+    <link href="/Scripts/bootstrap/3_0_3/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/signetintranet/_includes/css/styles.css" rel="stylesheet">
+    <!--[if lt IE 8]>
+    <link href="/signetintranet/_includes/css/ie7.css" rel="stylesheet">
+    <![endif]-->
+
+    <script type="text/javascript" src="/Scripts/jquery-1_10_2.min.js"></script>
+    <script src="/Scripts/bootstrap/3_0_3/js/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/Scripts/bootstrap/html5shiv.js"></script>
+      <script src="/Scripts/bootstrap/respond.min.js"></script>
+    <![endif]-->
+	<link rel="icon" href="/images/signet_favicon.ico" />
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125421578-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125421578-1');
+    </script>
+    
+</head>
+<body>
+    <!--[if lt IE 8]>
+    	<div class="container" id="iewarning">
+        	* It looks like you may be experiencing some display issues. Try changing Internet Explorer's compatibility mode or using a different browser.
+        </div>
+    <![endif]-->
+    <div class="container" id="wrapper">
+        
+
+<div class="row" id="tagline">
+	<div class="col-xs-12 col-lg-6">
+		<a href="//wincfprod01.jewels.com/signetintranet">
+                    <img src="//wincfprod01.jewels.com/images/2016_ShineWithSignet-Dark_sm.png" alt="Signet, Inc." style="width:141px;" />
+                </a>
+    </div>
+	<div class="col-xs-12 col-lg-6">
+    	
+    <div class="">
+		<a href="//wincfprod01.jewels.com/signetintranet/tips/tipsBrochure.cfm" target="brochure" id="tipsLink" onclick="tipsPop(this.href, this.target); return false;" class="tipsHotline pull-right">T.I.P.S. Hotline</a>
+	</div>
+    	<form class="navbar-form navbar-right" id="search_top" role="form" method="post" action="//wincfprod01.jewels.com/signetintranet/search/searchresults.cfm">
+        	<div class="form-group">
+            	<input type="text" name="criteria">
+            </div>
+            <button type="submit" class="btn btn-default btn-sm">Search</button>
+        </form>
+    </div>
+</div>
+<div class="navbar navbar-default clearfix row" id="mainNav" role="navigation">
+	<div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".mobileCollapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+    <div class="navbar-collapse collapse mobileCollapse" style="clear:both;"><!--clear:both is for IE7 :( -->
+        <ul class="nav navbar-nav">
+
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/Departments.cfm">Departments</a></li>
+            <li><a href="http://corpdirprod.jewels.com/CorporateDirectory/DirectorySearch.do">Corporate Directory</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/human_resources/learning_and_development/">Learning &amp; Development</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/human_resources/job_postings/">Job Postings</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/isecurity/isecurity.cfm">Info Security</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/human_resources/employee_store/">Employee Store</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/human_resources/team_member_resources/">Team Member Resources</a></li>
+        </ul>
+    </div>
+</div>
+
+
+        <div class="row margin-top-2" style="z-index:1;">
+          
+
+<script type='text/javascript' src='/Scripts/swfobject_modified.js'></script>
+<div class="col-xs-12">
+    
+	<div class="col-xs-6 col-sm-3 center-block">
+        <a href="/images/3_Strategic_Priorities.png" target="_blank">
+	        <img src="/images/PTB_logo.png" alt="Path to Brilliance" class="img-responsive" style="margin:70px 0 10px 0px;" />
+        </a>
+    </div>    
+	<div class="col-xs-6 col-sm-3 center-block">
+        <a href="http://www.signetjewelers.com/corporate-responsibility/CSR-Report-2017" target="_blank">
+	        <img src="/images/CSR.png" alt="Creating value through responsibility" class="img-responsive" style="border:1px solid #ccc; margin:1px 0 10px 0px;" />
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3 center-block">
+        
+        <a href="http://cassiprod.sterling.com/Portal/docs/training/Signet Jewelers Code of Conduct.pdf" target="_blank">
+            <img src="/images/signet_code_of_conduct.jpg" alt="Code of Conduct" class="img-responsive" style="border:1px solid #ccc; margin:1px 0 10px 0px;" />
+        </a>
+    </div>
+    
+	<div class="col-xs-6 col-sm-3 center-block">
+        
+        <a href="pdf/Core-Values.pdf" target="_blank">
+            <img src="/images/Our-Mission-Celebrate-Life-Express-Love-circle_200x200.png" class="img-responsive" alt="Mission Statement" style="margin:15px 0 10px 0px;" />
+        </a>
+    </div>
+</div>
+<div class="row">
+    
+    
+    
+    <div class="col-xs-12 col-md-4">
+    	<div class="panel panel-default">
+        	<div class="panel-heading">
+            	Team Member Communications
+            </div>
+            <div class="panel-body list-group">
+				
+                    <a href="/memo/IWD Communication_Akron2.pdf" class="list-group-item" target="_blank">Friday, March 8: Celebrate International Women's Day</a>
+                
+                    <a href="/memo/Reminder VTP Information Sessions V1.pdf" class="list-group-item" target="_blank">Wednesday VTP Benefit Information Sessions</a>
+                
+                    <a href="/memo/Self Defense Class AkronV3.pdf" class="list-group-item" target="_blank">Women's Self-Defense Classes Begin Wednesday, March 13</a>
+                
+                    <a href="/memo/Signet-LifeSpeak Electronic Sign Mar19.pdf" class="list-group-item" target="_blank">This Month from LifeSpeak: Debunking Nutrition Myths</a>
+                
+                    <a href="/memo/Blood Drive 3-13-2019.pdf" class="list-group-item" target="_blank">Wednesday, March 13: Onsite Blood Drive</a>
+                
+                    <a href="/memo/VTP Information Sessions V12.pdf" class="list-group-item" target="_blank">VTP Benefit Information Sessions: Updated with Zoom Details for Remote Team Members</a>
+                
+                    <a href="/memo/SC_VTP_External_Inquiries_1-22-2019.pdf" class="list-group-item" target="_blank">VTP Follow-up: Responding to Inquiries from Vendors and Business Partners</a>
+                
+                    <a href="/memo/MLF TM VTP 2019 FINAL.pdf" class="list-group-item" target="_blank">Announcing Voluntary Transition Program (VTP)</a>
+                
+                    <a href="/memo/VCD_P2B_SupportCenter_2-21-2019.pdf" class="list-group-item" target="_blank">A Path to Brilliance Update from Gina Drosos</a>
+                
+                    <a href="/memo/ITSecurityAwarenessTraining_2019_2-18_19_2.pdf" class="list-group-item" target="_blank">Complete Required Security Awareness Training by April 5</a>
+                
+                <a href="/signetintranet/departments/human_resources/memo/" class="list-group-item">view all</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+    	<div class="panel panel-default">
+        	<div class="panel-heading">
+            	New Features
+            </div>
+            <div class="panel-body list-group">
+				
+                    <a href="/signetintranet/isecurity/informationsecurity/policyacknowledgementlogin.cfm" class="list-group-item" >Info Sec Policy ACK</a>
+                
+                    <a href="https://portal.office.com" class="list-group-item" target="_blank">Password Management</a>
+                
+                    <a href="/signetintranet/departments/facilities_floorplans.cfm" class="list-group-item" >Home Office Campus</a>
+                
+                    <a href="/signetintranet/departments/payroll_cover.cfm" class="list-group-item" >Payroll Choices</a>
+                
+                    <a href="/signetintranet/pdf/FMLAPoster.pdf" class="list-group-item" target="_blank">Family and Medical Leave Act</a>
+                
+                    <a href="/signetintranet/security/escortrequest_form.cfm" class="list-group-item" >Security Escort Request</a>
+                
+                    <a href="https://wincfprod01.jewels.com/human_resources/fitness_consent" class="list-group-item" >Signet Fitness Center Policy & Procedures</a>
+                
+                <a href="https://myapps.microsoft.com/signin/CONVERCENT-PROD/9f672afc-2f7f-4159-941e-e59ea559b592" target="_blank"><br>
+                    <img src="/CFFileServlet/_cf_image/_cfimg8574292985774289614.PNG" alt="" />
+
+                </a>
+                <a href="pdf/code_of_conduct_disclosure_process.pdf" class="list-group-item" style="margin-top:15px;" target="_blank">READ FIRST - Code of Conduct Disclosure Process Instructions</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+    	<div class="panel panel-default">
+        	<div class="panel-heading">
+            	Current Events
+            </div>
+            <div class="panel-body list-group">
+				
+                    <a href="https://signetjewelers.sharepoint.com/sites/UCTrainingTeam/SitePages/Conference-Rooms.aspx" class="list-group-item" target="_blank">Signet Conference Room Portal</a>
+                
+                    <a href="https://app.smartsheet.com/b/form/d1476be201ea48ccb6b73891c484aa80" class="list-group-item" >Store Visit Request Form</a>
+                
+                    <a href="https://signet.online-rewards.com/" class="list-group-item" target="_blank">Shine With Signet Rewards and Recognition Website</a>
+                
+                    <a href="http://cassiprod.jewels.com/celebrate-signet/index.html" class="list-group-item" target="_blank">Celebrate Signet  -  Digital Newsletter</a>
+                
+                    <a href="https://wincfprod01.jewels.com/signetintranet/departments/human_resources/denim_week/" class="list-group-item" >Denim Donations</a>
+                
+                    <a href="https://sterling.service-now.com/signet" class="list-group-item" target="_blank">IT Self-Service Portal</a>
+                
+                <a href="https://myapps.microsoft.com/signin/CONVERCENT-PROD/9f672afc-2f7f-4159-941e-e59ea559b592" target="_blank" class="list-group-item">
+                    <img src="/CFFileServlet/_cf_image/_cfimg-3327940358346639919.PNG" alt="" />
+
+                </a>
+                <a href="https://www.myworkday.com/signetjewelers/login.htmld" target="_blank" class="list-group-item">
+                    <img src="/CFFileServlet/_cf_image/_cfimg3981225306618658734.PNG" alt="" />
+
+                </a>
+                <a href="http://www.shopsig.com" target="_blank"><br>
+                    <img src="/CFFileServlet/_cf_image/_cfimg3647668207154782996.PNG" alt="" />
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                
+            </div>
+            <div class="panel-body list-group">
+                <script src="//content.jwplatform.com/players/.js"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+        </div>
+        
+<br  style="clear:both;"/>
+
+
+<div id="footer" class="navbar navbar-default" role="navigation">
+        <ul class="nav nav-justified">
+            <li><a href="http://www.signetjewelers.com/sj/pages/home" target="_blank">Signet (corporate website)</a></li>
+            <li><a href="http://www.sterlingcareers.com/diversity.html" target="_blank">diversity</a></li>
+            <li><a href="https://aviserves.com/signet/" target="_blank">dining services</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/pdf/Core-Values.pdf" target="_blank">mission statement</a></li>
+            <li><a href="//wincfprod01.jewels.com/signetintranet/departments/human_resources/recognition/">special events</a></li>
+            <li><a href="http://sterling.know-where.com/sterling/" target="_blank">store locator</a></li>
+        </ul>
+</div>
+    </div>
+    <!--[if lt IE 8]>
+    	<div class="container" id="iewarning">
+        	* It looks like you may be experiencing some display issues. Try changing Internet Explorer's compatibility mode or using a different browser.
+        </div>
+    <![endif]-->
+	<script type="text/javascript" language="javascript">
+        var winObjRef = null;
+        var winObjRef2 = null;
+        function tipsPop(strUrl,strWindowName){
+            if(winObjRef == null || winObjRef.closed){
+                try{
+                    winObjRef2 = window.open('/signetintranet/tips/tipsCard.cfm','card');
+                    winObjRef = window.open(strUrl,strWindowName);
+                } catch(e){};
+            }else{
+                winObjRef.focus();
+            };
+        }
+
+    </script>
+    <!--[if lt IE 8]>
+    	<script>
+        	$('#footer ul').removeClass('nav-justified');
+        </script>
+    <![endif]-->
+</body>
+</html>
+    
